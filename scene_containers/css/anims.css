@@ -1,0 +1,48 @@
+.op {
+    opacity:0;
+}
+
+.op.animated {
+    transition-delay:.2s!important;
+    transition-duration:.7s;
+    opacity:1;
+}
+
+.left {
+    opacity:0;
+    margin-left:-500px;
+
+}
+
+.left.animated {
+    transition-delay:.2s!important;
+    transition-duration:.5s;
+    margin-left:0px;
+    opacity:1;
+}
+
+.right {
+    opacity:0;
+    margin-right:-500px;
+}
+
+.right.animated {
+    transition-delay:.2s!important;
+    transition-duration:.5s;
+    opacity:1;
+    margin-right:0px;
+}
+
+.top {
+    opacity:0;
+    margin-top:-500px;
+
+}
+
+.top.animated {
+    transition-delay:.2s!important;
+    transition-duration:.5s;
+    opacity:1;
+    margin-top:0px;
+    
+}
